@@ -5,5 +5,5 @@ I am terrible at BASH and even worse at Python so I welcome and encourage any an
 # Prerequisites
 * GNU/Linux OS with GNU Core Utils
 * [OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/) (Tested on >= 1.4.0)
-* [archive-pdf-tools](https://git.archive.org/merlijn/archive-pdf-tools) Note: Due to [a bug](https://github.com/pymupdf/PyMuPDF/issues/3381) you should really modify the requirements.txt to install pymupdf v1.21.0 and not the latest version. This bug appears to only affect the archive-pdf-tools script.
-* [archive-hocr-tools](https://git.archive.org/merlijn/archive-hocr-tools) (these should install when installing `archive-pdf-tools`)
+* [archive-pdf-tools](https://github.com/internetarchive/archive-pdf-tools) Note: Due to [a bug](https://github.com/pymupdf/PyMuPDF/issues/3381) you should really modify the requirements.txt to install pymupdf v1.21.0 and not the latest version. This bug appears to only affect the archive-pdf-tools script.
+* [archive-hocr-tools](https://github.com/internetarchive/archive-hocr-tools)(these should install when installing `archive-pdf-tools` with `pip`)
